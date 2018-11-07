@@ -1,35 +1,43 @@
 /*index*/
 
+.topnav{
+    font-size: 25px;
+    background-color: red;
+    text-align: center;
+    color: white;
+}
+
+.topnav:hover{
+    background-color::#111;
+
+}
+
+
 .clearfix {
     content:"";
     clear:both;
     display: table;
 }
-body {
-    margin:0px;
-}
-
-}
-.topnav {
-    font-size: 10em;
-    float: center;
-}
 
 .spyicon{
-    height:30px;
-    width:30px;
+    height:2em;
+    width:2em;
 }
 
 .secret{
-    height:30px;
-    width: 30px;
+    height:2em;
+    width: 2em;
 }
 
 
 
 <<<<<<< HEAD
 .main{
+<<<<<<< HEAD
     text-shadow: 1px 2px 2px #1C6EA4;
+=======
+    text-shadow: 1px 2px 2px ##d81539;
+>>>>>>> 40dde81cca2bcb3205908e0f4700f72224cfce12
     font-family: arial;
     font-style: bold;
     font-size: 20px;
@@ -42,6 +50,7 @@ body {
   width: 50%;
   height: 100%;
 }
+<<<<<<< HEAD
 .background{
     background-color: red;
 }
@@ -50,3 +59,19 @@ video {
   height:auto;
   margin-top: 21.875%;
  }
+=======
+h2{
+    text-shadow: 2px 3px 3px #1C6EA4;
+    font-size:40px;
+    color:red;
+}
+.background{
+    background-color: grey;
+
+}
+video {
+  width: 100%;
+  height: 56.25%;
+  margin-top: 21.875%;
+}
+>>>>>>> 40dde81cca2bcb3205908e0f4700f72224cfce12
