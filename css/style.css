@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .main{
     text-shadow: 1px 2px 2px ##d81539;
     font-family: arial;
@@ -25,4 +26,44 @@ video {
   width: 100%;
   height: 56.25%;
   margin-top: 21.875%;
+=======
+.clearfix {
+    content:"";
+    clear:both;
+    display: table;
+}
+body {
+    margin:0px;
+}
+#header-div {
+    background-color: black;
+    margin-top: -22px;
+}
+#header-text {
+    color:white;
+    font-size: 55px;
+    float: left;
+}
+#nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#nav ul li {
+    float: right;
+}
+
+#nav li a {
+    font-size: 20px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+#nav li a:hover {
+    background-color: #111;
+>>>>>>> cbccc3b21cbc793ad11e43f698acc654a7d8d039
 }
