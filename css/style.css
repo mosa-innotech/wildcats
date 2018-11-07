@@ -1,0 +1,39 @@
+.clearfix {
+    content:"";
+    clear:both;
+    display: table;
+}
+body {
+    margin:0px;
+}
+#header-div {
+    background-color: black;
+    margin-top: -22px;
+}
+#header-text {
+    color:white;
+    font-size: 55px;
+    float: left;
+}
+#nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#nav ul li {
+    float: right;
+}
+
+#nav li a {
+    font-size: 20px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+#nav li a:hover {
+    background-color: #111;
+}
