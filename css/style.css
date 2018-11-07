@@ -1,28 +1,32 @@
 /*index*/
 
+.topnav{
+    font-size: 25px;
+    background-color: red;
+    text-align: center;
+    color: white;
+}
+
+.topnav:hover{
+    background-color::#111;
+
+}
+
+
 .clearfix {
     content:"";
     clear:both;
     display: table;
 }
-body {
-    margin:0px;
-}
-
-}
-.topnav {
-    font-size: 10em;
-    float: center;
-}
 
 .spyicon{
-    height:30px;
-    width:30px;
+    height:2em;
+    width:2em;
 }
 
 .secret{
-    height:30px;
-    width: 30px;
+    height:2em;
+    width: 2em;
 }
 
 
@@ -55,3 +59,4 @@ video {
   width: 100%;
   height: 56.25%;
   margin-top: 21.875%;
+}
