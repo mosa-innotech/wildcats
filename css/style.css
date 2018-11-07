@@ -1,15 +1,21 @@
 /*index*/
 
+h1{
+    text-align: left;
+}
+
 .topnav{
     font-size: 25px;
-    background-color: red;
-    text-align: center;
+    background-color: #333;
+    text-align: right;
+    padding: 2px;
     color: white;
+    text-decoration: none;
+    font-style: oblique;
 }
 
 .topnav:hover{
-    background-color::#111;
-
+    background: #111;
 }
 
 
