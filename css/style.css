@@ -26,8 +26,9 @@ h1{
 }
 
 .spyicon{
-    height:2em;
+    height:78em;
     width:2em;
+    float: left;
 }
 
 .secret{
